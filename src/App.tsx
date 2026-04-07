@@ -4,7 +4,6 @@ import {
   Calendar, ExternalLink, Mail, Linkedin, ChevronDown 
 } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
-import { GeminiChat } from "./components/GeminiChat";
 
 const RESUME_URL = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68b7388775b8970c2dce000f/cd0690c75_ShaunKThiviergeResume.pdf";
 const PROFILE_IMAGE = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68b7388775b8970c2dce000f/4a22a0f08_profile.jpg";
@@ -573,7 +572,6 @@ export default function App() {
         <Publications />
         <Contact />
       </main>
-      <GeminiChat />
     </div>
   );
 }
